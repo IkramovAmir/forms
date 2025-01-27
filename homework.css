@@ -1,0 +1,44 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.confirm input{
+    padding: 4px 20px;
+}
+
+.input_s{
+    background-color: aqua;
+    cursor: pointer;
+    color: rgb(167, 117, 0);
+    font-size: 16px;
+    padding: 4px 20px;
+    transition: 0.5s;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.input_s:hover{
+    background-color: rgb(25, 73, 219);
+    color: white;
+}
+
+.input_r{
+    background-color: aqua;
+    cursor: pointer;
+    color: rgb(167, 117, 0);
+    font-size: 16px;
+    padding: 4px 27px;
+    transition: 0.5s;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.input_r:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.phone td, th{
+    padding: 5px 20px;
+}
